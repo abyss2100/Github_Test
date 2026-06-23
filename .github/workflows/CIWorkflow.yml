@@ -21,7 +21,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7.0.0
       # python 3.13 setup
       - name: setup python 3.13
         uses: actions/setup-python@v5
